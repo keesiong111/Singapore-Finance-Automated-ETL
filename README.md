@@ -6,6 +6,11 @@ Automated ETL pipeline for Singapore financial datasets. Features AI-assisted Py
 ## 🚀 Project Overview
 This project demonstrates a **fully automated end-to-end ETL pipeline** designed to process multiple financial datasets from Singapore. Leveraging AI-assisted Python scripting, the pipeline automates the extraction, cleaning, and loading of raw Kaggle data into a structured MySQL database.
 
+## 📊 Data Source
+The datasets used in this project are sourced from Kaggle:
+*   **Dataset:** [Finance Datasets Complete Singapore](https://www.kaggle.com/datasets/subhamjain/finance-datasets-complete-singapore)
+*   **Description:** This collection includes comprehensive financial data from the Singapore government, covering CPF statistics, tax collection, and fiscal positions from various years.
+
 ## 🛠️ Key Automated Features
 *   **Recursive File Discovery:** Automatically scans the `raw_data` directory and all its subfolders for CSV files.
 *   **Intelligent Data Cleaning:** 
