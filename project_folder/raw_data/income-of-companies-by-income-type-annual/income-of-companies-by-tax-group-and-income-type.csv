@@ -1,0 +1,193 @@
+year_of_assessment,tax_group,income_type,amount
+2003,Non-Taxable Group,Dividends,4434834
+2003,Non-Taxable Group,Interest,181954
+2003,Non-Taxable Group,Other Types,24755
+2003,Non-Taxable Group,Rent,118272
+2003,Non-Taxable Group,Royalties,5478
+2003,Non-Taxable Group,Trade Income,-20560349
+2003,Taxable Group,Dividends,2440787
+2003,Taxable Group,Interest,599411
+2003,Taxable Group,Other Types,31817
+2003,Taxable Group,Rent,337458
+2003,Taxable Group,Royalties,7937
+2003,Taxable Group,Trade Income,41010924
+2004,Non-Taxable Group,Dividends,1414911
+2004,Non-Taxable Group,Interest,104105
+2004,Non-Taxable Group,Other Types,13481
+2004,Non-Taxable Group,Rent,100829
+2004,Non-Taxable Group,Royalties,3180
+2004,Non-Taxable Group,Trade Income,-23663208
+2004,Taxable Group,Dividends,1532083
+2004,Taxable Group,Interest,495387
+2004,Taxable Group,Other Types,26783
+2004,Taxable Group,Rent,333071
+2004,Taxable Group,Royalties,14597
+2004,Taxable Group,Trade Income,33804780
+2005,Non-Taxable Group,Dividends,1623052
+2005,Non-Taxable Group,Interest,74681
+2005,Non-Taxable Group,Other Types,30310
+2005,Non-Taxable Group,Rent,107176
+2005,Non-Taxable Group,Royalties,2963
+2005,Non-Taxable Group,Trade Income,-22244230
+2005,Taxable Group,Dividends,1249941
+2005,Taxable Group,Interest,265822
+2005,Taxable Group,Other Types,46550
+2005,Taxable Group,Rent,284376
+2005,Taxable Group,Royalties,8006
+2005,Taxable Group,Trade Income,41455372
+2006,Non-Taxable Group,Dividends,733792
+2006,Non-Taxable Group,Interest,170938
+2006,Non-Taxable Group,Other Types,15937
+2006,Non-Taxable Group,Rent,99198
+2006,Non-Taxable Group,Royalties,2181
+2006,Non-Taxable Group,Trade Income,-23208496
+2006,Taxable Group,Dividends,983470
+2006,Taxable Group,Interest,757820
+2006,Taxable Group,Other Types,29839
+2006,Taxable Group,Rent,304301
+2006,Taxable Group,Royalties,27594
+2006,Taxable Group,Trade Income,47156725
+2007,Non-Taxable Group,Dividends,2145406
+2007,Non-Taxable Group,Interest,686290
+2007,Non-Taxable Group,Other Types,42788
+2007,Non-Taxable Group,Rent,165531
+2007,Non-Taxable Group,Royalties,34942
+2007,Non-Taxable Group,Trade Income,-36282559
+2007,Taxable Group,Dividends,5486608
+2007,Taxable Group,Interest,3956743
+2007,Taxable Group,Other Types,163420
+2007,Taxable Group,Rent,461137
+2007,Taxable Group,Royalties,54773
+2007,Taxable Group,Trade Income,54937484
+2008,Non-Taxable Group,Dividends,3222094
+2008,Non-Taxable Group,Interest,777111
+2008,Non-Taxable Group,Other Types,46229
+2008,Non-Taxable Group,Rent,168343
+2008,Non-Taxable Group,Royalties,21463
+2008,Non-Taxable Group,Trade Income,-40532608
+2008,Taxable Group,Dividends,3496393
+2008,Taxable Group,Interest,3443050
+2008,Taxable Group,Other Types,332820
+2008,Taxable Group,Rent,567151
+2008,Taxable Group,Royalties,37072
+2008,Taxable Group,Trade Income,70210305
+2009,Non-Taxable Group,Dividends,80014
+2009,Non-Taxable Group,Interest,787692
+2009,Non-Taxable Group,Other Types,185897
+2009,Non-Taxable Group,Rent,215279
+2009,Non-Taxable Group,Royalties,24040
+2009,Non-Taxable Group,Trade Income,-49464146
+2009,Taxable Group,Dividends,1146844
+2009,Taxable Group,Interest,4894506
+2009,Taxable Group,Other Types,296879
+2009,Taxable Group,Rent,799902
+2009,Taxable Group,Royalties,114043
+2009,Taxable Group,Trade Income,72176234
+2010,Non-Taxable Group,Dividends,39875
+2010,Non-Taxable Group,Interest,460309
+2010,Non-Taxable Group,Other Types,144268
+2010,Non-Taxable Group,Rent,252541
+2010,Non-Taxable Group,Royalties,33117
+2010,Non-Taxable Group,Trade Income,-60011050
+2010,Taxable Group,Dividends,939050
+2010,Taxable Group,Interest,1769006
+2010,Taxable Group,Other Types,421357
+2010,Taxable Group,Rent,1008224
+2010,Taxable Group,Royalties,113674
+2010,Taxable Group,Trade Income,75230428
+2011,Non-Taxable Group,Dividends,25923
+2011,Non-Taxable Group,Interest,583242
+2011,Non-Taxable Group,Other Types,173555
+2011,Non-Taxable Group,Rent,288490
+2011,Non-Taxable Group,Royalties,64825
+2011,Non-Taxable Group,Trade Income,-65868603
+2011,Taxable Group,Dividends,1474698
+2011,Taxable Group,Interest,1869470
+2011,Taxable Group,Other Types,502215
+2011,Taxable Group,Rent,1036535
+2011,Taxable Group,Royalties,179248
+2011,Taxable Group,Trade Income,85566152
+2012,Non-Taxable Group,Dividends,104460
+2012,Non-Taxable Group,Interest,550558
+2012,Non-Taxable Group,Other Types,160234
+2012,Non-Taxable Group,Rent,330474
+2012,Non-Taxable Group,Royalties,48006
+2012,Non-Taxable Group,Trade Income,-67381429
+2012,Taxable Group,Dividends,203605
+2012,Taxable Group,Interest,1796221
+2012,Taxable Group,Other Types,430946
+2012,Taxable Group,Rent,1153069
+2012,Taxable Group,Royalties,330992
+2012,Taxable Group,Trade Income,100412317
+2013,Non-Taxable Group,Dividends,37601
+2013,Non-Taxable Group,Interest,639193
+2013,Non-Taxable Group,Other Types,146866
+2013,Non-Taxable Group,Rent,373261
+2013,Non-Taxable Group,Royalties,68047
+2013,Non-Taxable Group,Trade Income,-82666101
+2013,Taxable Group,Dividends,237419
+2013,Taxable Group,Interest,3635232
+2013,Taxable Group,Other Types,560479
+2013,Taxable Group,Rent,1291486
+2013,Taxable Group,Royalties,228090
+2013,Taxable Group,Trade Income,100169900
+2014,Non-Taxable Group,Dividends,21757
+2014,Non-Taxable Group,Interest,637899
+2014,Non-Taxable Group,Other Types,195528
+2014,Non-Taxable Group,Rent,422744
+2014,Non-Taxable Group,Royalties,133411
+2014,Non-Taxable Group,Trade Income,-89544231
+2014,Taxable Group,Dividends,204877
+2014,Taxable Group,Interest,2486382
+2014,Taxable Group,Other Types,695939
+2014,Taxable Group,Rent,1384428
+2014,Taxable Group,Royalties,310261
+2014,Taxable Group,Trade Income,105567594
+2015,Non-Taxable Group,Dividends,63384
+2015,Non-Taxable Group,Interest,713031
+2015,Non-Taxable Group,Other Types,210061
+2015,Non-Taxable Group,Rent,358572
+2015,Non-Taxable Group,Royalties,74687
+2015,Non-Taxable Group,Trade Income,-93203948
+2015,Taxable Group,Dividends,2108175
+2015,Taxable Group,Interest,2761794
+2015,Taxable Group,Other Types,934801
+2015,Taxable Group,Rent,1500266
+2015,Taxable Group,Royalties,511047
+2015,Taxable Group,Trade Income,109982806
+2016,Non-Taxable Group,Dividends,38997
+2016,Non-Taxable Group,Interest,929594
+2016,Non-Taxable Group,Other Types,1551720
+2016,Non-Taxable Group,Rent,399183
+2016,Non-Taxable Group,Royalties,180324
+2016,Non-Taxable Group,Trade Income,-103115054
+2016,Taxable Group,Dividends,728716
+2016,Taxable Group,Interest,3716757
+2016,Taxable Group,Other Types,1064602
+2016,Taxable Group,Rent,1542918
+2016,Taxable Group,Royalties,278219
+2016,Taxable Group,Trade Income,117085551
+2017,Non-Taxable Group,Dividends,61607
+2017,Non-Taxable Group,Interest,1219022
+2017,Non-Taxable Group,Other Types,452371
+2017,Non-Taxable Group,Rent,488727
+2017,Non-Taxable Group,Royalties,203973
+2017,Non-Taxable Group,Trade Income,-116693060
+2017,Taxable Group,Dividends,697409
+2017,Taxable Group,Interest,3699298
+2017,Taxable Group,Other Types,1206932
+2017,Taxable Group,Rent,1512493
+2017,Taxable Group,Royalties,592370
+2017,Taxable Group,Trade Income,126423719
+2018,Non-Taxable Group,Dividends,97138
+2018,Non-Taxable Group,Interest,1477235
+2018,Non-Taxable Group,Other Types,368627
+2018,Non-Taxable Group,Rent,553251
+2018,Non-Taxable Group,Royalties,81353
+2018,Non-Taxable Group,Trade Income,-127755340
+2018,Taxable Group,Dividends,590170
+2018,Taxable Group,Interest,4579955
+2018,Taxable Group,Other Types,1155847
+2018,Taxable Group,Rent,1574331
+2018,Taxable Group,Royalties,1143118
+2018,Taxable Group,Trade Income,147325880

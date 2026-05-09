@@ -1,0 +1,197 @@
+# Metadata for Income of Individuals by Income Type, Annual
+---
+Identifier: '91dbea51-aca6-4e04-9b48-73176d2690c3'
+Name: 'income-of-individuals-by-income-type-annual'
+Title: 'Income of Individuals by Income Type, Annual'
+Description:
+  - 'Total income amount by income type (e.g. employment income, trade/professional
+    income, rents), approved donations and assessable income of taxable and non-taxable
+    individual taxpayers for Year of Assessment (YA)2004 to YA2019. Income is assessed
+    on a preceding year basis. The period of income relevant to the YA is the year
+    preceding the YA.'
+  - ''
+  - '* All figures are as at 31 March of the following year for each Year of Assessment
+    (i.e. the YA2018 figures are as at 31 March 2019).'
+Topics:
+  - 'Finance'
+Keywords:
+  - 'Income'
+  - 'Income Type'
+  - 'Rental'
+  - 'Salaries'
+  - 'Taxes'
+  - 'Taxpayers'
+Publisher:
+  Name: 'Inland Revenue Authority of Singapore'
+  Admin 1:
+    Name: 'Chua Chanyi'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Chanyi@iras.gov.sg'
+  Admin 2:
+    Name: 'Chua Sin Chet'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Sin_Chet@iras.gov.sg'
+Sources:
+  - 'Inland Revenue Authority of Singapore'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2004-01-01 to 2019-12-31'
+Last Updated: '2020-09-24T04:04:39.276588'
+Resources:
+  -
+    Identifier: '2403315c-93b9-4f65-b97b-8132077037eb'
+    Title: 'Assessable Income of Individuals'
+    Url: 'https://storage.data.gov.sg/income-of-individuals-by-income-type-annual/resources/assessable-income-of-individuals-2020-09-24T04-02-55Z.csv'
+    Format: 'CSV'
+    Coverage: '2004-01-01 to 2019-12-31'
+    Description:
+      - '* Number of Individuals Assessed includes tax clearance cases for non-citizens.'
+      - '* Approved Donations refer to the total tax deductions granted in respect
+        of qualifying donations. For the Year of Assessment (YA)2010 to YA2015 and
+        YA2017 to YA2019, the amount of tax deduction granted is 2.5 times the amount
+        of qualifying donation made. For YA2016, the amount of tax deduction granted
+        is 3 times the amount of qualifying donation made.'
+    Last Updated: '2020-09-24T04:02:55.520932'
+    Schema:
+      -
+        Name: 'year_of_assessment'
+        Title: 'Year of Assessment'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'no_of_indv_assessed'
+        Title: 'No. of Individuals Assessed'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'
+      -
+        Name: 'total_income'
+        Title: 'Total Income'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'donations'
+        Title: 'Approved Donations'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'assessable_income'
+        Title: 'Assessable Income'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+  -
+    Identifier: 'ffd82a92-ef07-42c1-8073-337f4512ebcc'
+    Title: 'Assessable Income of Individuals by Tax Group'
+    Url: 'https://storage.data.gov.sg/income-of-individuals-by-income-type-annual/resources/assessable-income-of-individuals-by-tax-group-2020-09-24T04-04-38Z.csv'
+    Format: 'CSV'
+    Coverage: '2004-01-01 to 2019-12-31'
+    Description:
+      - '* Taxable Group means those with net tax payable after taking into account
+        allowable tax credits, tax remission, tax rebates and tax deducted at source.'
+      - '* Number of Individuals Assessed includes tax clearance cases for non-citizens.'
+      - '* Approved Donations refer to the total tax deductions granted in respect
+        of qualifying donations. For the Year of Assessment (YA)2010 to YA2015 and
+        YA2017 to YA2019, the amount of tax deduction granted is 2.5 times the amount
+        of qualifying donation made. For YA2016, the amount of tax deduction granted
+        is 3 times the amount of qualifying donation made.'
+    Last Updated: '2020-09-24T04:04:38.511793'
+    Schema:
+      -
+        Name: 'year_of_assessment'
+        Title: 'Year of Assessment'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'tax_group'
+        Title: 'Tax Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_indv_assessed'
+        Title: 'No. of Individuals Assessed'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'
+      -
+        Name: 'total_income'
+        Title: 'Total Income'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'donations'
+        Title: 'Approved Donations'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'assessable_income'
+        Title: 'Assessable Income'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+  -
+    Identifier: 'a1ce0bec-7745-4c4f-9fb4-3f4d0600fcbb'
+    Title: 'Income of Individuals by Income Type'
+    Url: 'https://storage.data.gov.sg/income-of-individuals-by-income-type-annual/resources/income-of-individuals-by-income-type-2020-09-24T03-51-46Z.csv'
+    Format: 'CSV'
+    Coverage: '2004-01-01 to 2019-12-31'
+    Last Updated: '2020-09-24T03:51:46.428642'
+    Schema:
+      -
+        Name: 'year_of_assessment'
+        Title: 'Year of Assessment'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'income_type'
+        Title: 'Income Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'amount'
+        Title: 'Amount'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+  -
+    Identifier: '4897cb52-f55c-43b6-a8f7-7214f4538e28'
+    Title: 'Income of Individuals by Income Type and Tax Group'
+    Url: 'https://storage.data.gov.sg/income-of-individuals-by-income-type-annual/resources/income-of-individuals-by-income-type-and-tax-group-2020-09-24T03-54-31Z.csv'
+    Format: 'CSV'
+    Coverage: '2004-01-01 to 2019-12-31'
+    Description: '* Taxable Group means those with net tax payable after taking into
+      account allowable tax credits, tax remission, tax rebates and tax deducted at
+      source.'
+    Last Updated: '2020-09-24T03:54:31.001714'
+    Schema:
+      -
+        Name: 'year_of_assessment'
+        Title: 'Year of Assessment'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'tax_group'
+        Title: 'Tax Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'income_type'
+        Title: 'Income Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'amount'
+        Title: 'Amount'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'

@@ -1,0 +1,86 @@
+# Metadata for Yearly interest credited to CPF members
+---
+Identifier: 'dde78f05-a135-4771-9f0c-94e5345ab1b3'
+Name: 'yearly-interest-credited-to-cpf-members'
+Title: 'Yearly interest credited to CPF members'
+Description: 'Yearly amount of interest credited to CPF members'
+Topics:
+  - 'Finance'
+Keywords:
+  - 'CPF members'
+  - 'interest'
+Publisher:
+  Name: 'Central Provident Fund Board'
+  Admin 1:
+    Name: 'Chong Chiew Fong'
+    Department: 'Management Information Department'
+    Email: 'CHONG_Chiew_Fong@cpf.gov.sg'
+Sources:
+  - 'Central Provident Fund Board'
+Source Url: 'https://www.cpf.gov.sg/Assets/common/PublishingImages/CPFStatistics/Sub_Interest.jpg'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2006-01-01 to 2020-12-31'
+Last Updated: '2021-06-16T01:41:01.746711'
+Resources:
+  -
+    Identifier: 'e7d911ce-c29b-42d9-a247-a4caa082c895'
+    Title: 'Yearly amount of base interest credited to CPF members'
+    Url: 'https://storage.data.gov.sg/yearly-interest-credited-to-cpf-members/resources/yearly-amount-of-base-interest-credited-to-cpf-members-2021-06-14T07-48-49Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2020-12-31'
+    Description: 'Interest is computed monthly, compounded and credited yearly. Figures
+      are rounded to the nearest hundred thousand dollars.'
+    Last Updated: '2021-06-14T07:48:49.186846'
+    Schema:
+      -
+        Name: 'yr'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'interest_amt'
+        Title: 'Amount of interest'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$'
+        Description: 'Figures are rounded to the nearest hundred thousand dollars'
+  -
+    Identifier: '939012ba-5d2e-42f0-a481-77b314714fc3'
+    Title: 'Yearly amount of extra interest credited to CPF members'
+    Url: 'https://storage.data.gov.sg/yearly-interest-credited-to-cpf-members/resources/yearly-amount-of-extra-interest-credited-to-cpf-members-2021-06-14T08-01-50Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2020-12-31'
+    Description:
+      - 'Interest is computed monthly, compounded and credited yearly.'
+      - ''
+      - 'Refers to an extra 1% interest paid on the first $60,000 of a member''s combined
+        balances (with up to $20,000 from Ordinary Account) (implemented in 2008),
+        and an additional 1% extra interest on the first $30,000 of their combined
+        balances (with up to $20,000 from Ordinary Account) for CPF members aged 55
+        years and above (implemented in 2016).'
+      - ''
+      - 'Figures are rounded to the nearest hundred thousand dollars.'
+    Last Updated: '2021-06-14T08:01:50.999244'
+    Schema:
+      -
+        Name: 'yr'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'interest_amt'
+        Title: 'Amount of interest'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$'
+        Description:
+          - 'Refers to an extra 1% interest paid on the first $60,000 of a member''s
+            combined balances (with up to $20,000 from Ordinary Account) (implemented
+            in 2008), and an additional 1% extra interest on the first $30,000 of
+            their combined balances (with up to $20,000 from Ordinary Account) for
+            CPF members aged 55 years and above (implemented in 2016).'
+          - ''
+          - 'Figures are rounded to the nearest hundred thousand dollars.'

@@ -1,0 +1,62 @@
+# Metadata for Total Government Operating Revenue and IRAS' Collection, Annual
+---
+Identifier: '742d03ea-1fb7-4338-808d-16ef9f2cea94'
+Name: 'total-government-operating-revenue-and-iras-collection-annual'
+Title: 'Total Government Operating Revenue and IRAS'' Collection, Annual'
+Description: 'Total amount of Government Operating Revenue and taxes collected by
+  IRAS for Financial Year (FY)2002 to FY2019.'
+Topics:
+  - 'Finance'
+Keywords:
+  - 'Government Revenue'
+  - 'Taxes'
+Publisher:
+  Name: 'Inland Revenue Authority of Singapore'
+  Admin 1:
+    Name: 'Chua Chanyi'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Chanyi@iras.gov.sg'
+  Admin 2:
+    Name: 'Chua Sin Chet'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Sin_Chet@iras.gov.sg'
+Sources:
+  - 'Inland Revenue Authority of Singapore'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2002-04-01 to 2020-03-31'
+Last Updated: '2020-09-29T09:13:12.596025'
+Resources:
+  -
+    Identifier: 'c6a3b31f-0067-4e7d-b7fa-6a5078a808fd'
+    Title: 'Total Government Operating Revenue and IRAS'' Collection'
+    Url: 'https://storage.data.gov.sg/total-government-operating-revenue-and-iras-collection-annual/resources/total-government-operating-revenue-and-iras-collection-2020-09-29T09-13-12Z.csv'
+    Format: 'CSV'
+    Coverage: '2002-04-01 to 2020-03-31'
+    Description:
+      - '* Total Government Operating Revenue excludes interest income, investment
+        income and capital receipts.'
+      - ''
+    Last Updated: '2020-09-29T09:13:12.166319'
+    Schema:
+      -
+        Name: 'financial_year'
+        Title: 'Financial Year'
+        Type: 'datetime'
+        Sub Type: 'financial_year'
+        Format: 'YYYY'
+        Description: 'Financial year starts on 1 April and ends on 31 March'
+      -
+        Name: 'total_gov_operating_rev'
+        Title: 'Total Government Operating Revenue'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'iras_collection'
+        Title: 'IRAS'' Collection'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'

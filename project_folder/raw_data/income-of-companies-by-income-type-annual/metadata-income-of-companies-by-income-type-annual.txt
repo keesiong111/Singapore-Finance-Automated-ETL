@@ -1,0 +1,346 @@
+# Metadata for Income of Companies by Income Type, Annual
+---
+Identifier: 'e7a00a47-2676-4352-9495-a796124a3453'
+Name: 'income-of-companies-by-income-type-annual'
+Title: 'Income of Companies by Income Type, Annual'
+Description:
+  - 'Total income amount by income type (e.g. trade income, rents, interest, royalties),
+    approved donations, tax set-offs (e.g. group relief, partial tax exemption) and
+    net tax assessed of taxable and non-taxable companies for Year of Assessment (YA)2003
+    to YA2018. Income is assessed on a preceding year basis. The basis period for
+    any YA is the financial year ending in the year preceding the YA.'
+  - ''
+  - '* All figures are as at 31 March two years from each Year of Assessment (i.e.
+    the YA2017 figures are as at 31 March 2019).'
+Topics:
+  - 'Finance'
+Keywords:
+  - 'Businesses'
+  - 'Companies'
+  - 'Corporate Tax'
+  - 'Rental'
+  - 'Taxes'
+Publisher:
+  Name: 'Inland Revenue Authority of Singapore'
+  Admin 1:
+    Name: 'Chua Chanyi'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Chanyi@iras.gov.sg'
+  Admin 2:
+    Name: 'Chua Sin Chet'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Sin_Chet@iras.gov.sg'
+Sources:
+  - 'Inland Revenue Authority of Singapore'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2003-01-01 to 2018-12-31'
+Last Updated: '2020-09-26T11:13:51.172909'
+Resources:
+  -
+    Identifier: '3b64eaf4-78d7-4312-8167-1a423b83d0db'
+    Title: 'Chargeable Income of Companies'
+    Url: 'https://storage.data.gov.sg/income-of-companies-by-income-type-annual/resources/chargeable-income-of-companies-2020-09-23T09-09-28Z.csv'
+    Format: 'CSV'
+    Coverage: '2007-01-01 to 2018-12-31'
+    Description:
+      - '* Approved Donations refers to the total tax deductions granted in respect
+        of qualifying donations. For the Year of Assessment (YA)2010 to YA2015 and
+        YA2017 to YA2018, the amount of tax deduction granted is 2.5 times the amount
+        of qualifying donation made. For YA2016, the amount of tax deduction granted
+        is 3 times.'
+      - '* Chargeable Income is the taxable income of a company less allowable or
+        approved deductions such as business losses, expenses, capital allowances,
+        donations and claims for tax reliefs and tax exemptions. Chargeable income
+        is zero if total deduction is more than total income.'
+      - '* Net Tax Assessed is the net tax payable or repayable by a company after
+        taking into account allowable tax credits, tax remission, tax rebates and
+        tax deducted at source.'
+    Last Updated: '2020-09-23T09:09:28.652211'
+    Schema:
+      -
+        Name: 'year_of_assessment'
+        Title: 'Year of Assessment'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'no_of_companies_assessed'
+        Title: 'No. of Companies Assessed'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'
+      -
+        Name: 'total_income'
+        Title: 'Total Income'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'donations'
+        Title: 'Approved Donations'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'chargeable_income'
+        Title: 'Chargeable Income'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'group_relief'
+        Title: 'Group Relief'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'loss_carryback_relief'
+        Title: 'Loss Carry-back Relief'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'ci_aft_reliefs'
+        Title: 'Chargeable Income After Reliefs'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'tax_exemption'
+        Title: 'Full/ Partial Tax Exemption'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'ci_aft_exemption'
+        Title: 'Chargeable Income After Exemption'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'gross_tax_payable'
+        Title: 'Gross Tax Payable'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'tax_deducted_at_source'
+        Title: 'Tax Deducted at Source'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'other_tax_set_offs'
+        Title: 'Other Tax Set-offs'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'net_tax_assessed'
+        Title: 'Net Tax Assessed'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+  -
+    Identifier: 'ec8ed20b-707f-41a6-80d0-1f2be8025261'
+    Title: 'Chargeable Income of Companies by Tax Group'
+    Url: 'https://storage.data.gov.sg/income-of-companies-by-income-type-annual/resources/chargeable-income-of-companies-by-tax-group-2020-09-23T09-17-22Z.csv'
+    Format: 'CSV'
+    Coverage: '2003-01-01 to 2018-12-31'
+    Description:
+      - '* Approved Donations refers to the total tax deductions granted in respect
+        of qualifying donations. For the Year of Assessment (YA)2010 to YA2015 and
+        YA2017 to YA2018, the amount of tax deduction granted is 2.5 times the amount
+        of qualifying donation made. For YA2016, the amount of tax deduction granted
+        is 3 times.'
+      - '* Chargeable Income is the taxable income of a company less allowable or
+        approved deductions such as business losses, expenses, capital allowances,
+        donations and claims for tax reliefs and tax exemptions. Chargeable income
+        is zero if total deduction is more than total income.'
+      - '* Net Tax Assessed is the net tax payable or repayable by a company after
+        taking into account allowable tax credits, tax remission, tax rebates and
+        tax deducted at source.'
+      - '* Taxable Group means those companies with net tax payable after taking into
+        account allowable tax credits, tax remission, tax rebates and tax deducted
+        at source.'
+    Last Updated: '2020-09-23T09:17:22.257881'
+    Schema:
+      -
+        Name: 'year_of_assessment'
+        Title: 'Year of Assessment'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'tax_group'
+        Title: 'Tax Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'no_of_companies_assessed'
+        Title: 'No. of Companies Assessed'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'
+      -
+        Name: 'total_income'
+        Title: 'Total Income'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'donations'
+        Title: 'Approved Donations'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'assessable_income'
+        Title: 'Assessable Income'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'chargeable_income'
+        Title: 'Chargeable Income'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'group_relief'
+        Title: 'Group Relief'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'loss_carryback_relief'
+        Title: 'Loss Carry-back Relief'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'ci_aft_reliefs'
+        Title: 'Chargeable Income After Reliefs'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'tax_exemption'
+        Title: 'Full/ Partial Tax Exemption'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'ci_aft_exemption'
+        Title: 'Chargeable Income After Full/ Partial Tax Exemption'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'gross_tax_payable'
+        Title: 'Gross Tax Payable'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'tax_deducted_at_source'
+        Title: 'Tax Deducted at Source'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'other_tax_set_offs'
+        Title: 'Other Tax Set-offs'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'net_tax_assessed'
+        Title: 'Net Tax Assessed'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+        Description: '"na" : Data not available or not applicable'
+  -
+    Identifier: '83b36d2e-6d2a-47d0-8042-415db84442e9'
+    Title: 'Income of Companies by Income Type'
+    Url: 'https://storage.data.gov.sg/income-of-companies-by-income-type-annual/resources/income-of-companies-by-income-type-2020-09-23T09-20-14Z.csv'
+    Format: 'CSV'
+    Coverage: '2007-01-01 to 2018-12-31'
+    Description:
+      - '* Royalties: From YA2012, figures exclude royalties earned by companies that
+        have filed their tax returns using Form C-S, a simplified income tax return
+        for small companies.'
+      - '* Other types of income: From YA2012, figures include royalties earned by
+        companies that have filed their tax returns using Form C-S.'
+    Last Updated: '2020-09-23T09:20:14.305980'
+    Schema:
+      -
+        Name: 'year_of_assessment'
+        Title: 'Year of Assessment'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'income_type'
+        Title: 'Income Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'amount'
+        Title: 'Amount'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+  -
+    Identifier: 'be33c464-7566-402d-87e2-07ccf07c251d'
+    Title: 'Income of Companies by Tax Group and Income Type'
+    Url: 'https://storage.data.gov.sg/income-of-companies-by-income-type-annual/resources/income-of-companies-by-tax-group-and-income-type-2020-09-26T11-13-50Z.csv'
+    Format: 'CSV'
+    Coverage: '2003-01-01 to 2018-12-31'
+    Description:
+      - '* Royalties: From YA2012, figures exclude royalties earned by companies that
+        have filed their tax returns using Form C-S, a simplified income tax return
+        for small companies.'
+      - '* Other types of income: From YA2012, figures include royalties earned by
+        companies that have filed their tax returns using Form C-S.'
+      - '* Taxable Group means those companies with net tax payable after taking into
+        account allowable tax credits, tax remission, tax rebates and tax deducted
+        at source.'
+    Last Updated: '2020-09-26T11:13:50.325941'
+    Schema:
+      -
+        Name: 'year_of_assessment'
+        Title: 'Year of Assessment'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'tax_group'
+        Title: 'Tax Group'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'income_type'
+        Title: 'Income Type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'amount'
+        Title: 'Amount'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'

@@ -1,0 +1,51 @@
+# Metadata for Cost of Tax Collection, Annual
+---
+Identifier: '865471b8-c1d3-4b2a-9ebf-56bb261f982d'
+Name: 'cost-of-tax-collection-annual'
+Title: 'Cost of Tax Collection, Annual'
+Description: 'IRAS'' overall cost per dollar of tax collected for Financial Year (FY)2000
+  to FY2019.'
+Topics:
+  - 'Finance'
+Keywords:
+  - 'Taxes'
+Publisher:
+  Name: 'Inland Revenue Authority of Singapore'
+  Admin 1:
+    Name: 'Chua Chanyi'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Chanyi@iras.gov.sg'
+  Admin 2:
+    Name: 'Chua Sin Chet'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Sin_Chet@iras.gov.sg'
+Sources:
+  - 'Inland Revenue Authority of Singapore'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2000-04-01 to 2020-03-31'
+Last Updated: '2020-09-24T06:23:16.261091'
+Resources:
+  -
+    Identifier: '9c9d18fa-0865-43c9-a24e-8a90c7303a40'
+    Title: 'Cost of Tax Collection'
+    Url: 'https://storage.data.gov.sg/cost-of-tax-collection-annual/resources/cost-of-tax-collection-2020-09-24T06-23-15Z.csv'
+    Format: 'CSV'
+    Coverage: '2000-04-01 to 2020-03-31'
+    Last Updated: '2020-09-24T06:23:15.769940'
+    Schema:
+      -
+        Name: 'financial_year'
+        Title: 'Financial Year'
+        Type: 'datetime'
+        Sub Type: 'financial_year'
+        Format: 'YYYY'
+        Description: 'Financial year starts on 1 April and ends on 31 March'
+      -
+        Name: 'cost_per_dollar_of_tax_collected'
+        Title: 'Cost per Dollar of Tax Collected'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'cent'

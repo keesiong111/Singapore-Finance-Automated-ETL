@@ -1,0 +1,115 @@
+# Metadata for Taxable Companies by Income Group, Annual
+---
+Identifier: '619f1ca5-d9ea-4e27-9cb9-57cd694b8c2e'
+Name: 'taxable-companies-by-income-group-annual'
+Title: 'Taxable Companies by Income Group, Annual'
+Description:
+  - 'Number of companies, amount of chargeable income and net tax assessed of taxable
+    companies by chargeable income ranges for Year of Assessment (YA)2004 to YA2019.
+    Income is assessed on a preceding year basis. The basis period for any YA is the
+    financial year ending in the year preceding the YA.'
+  - ''
+  - '* All figures are as at 31 March of the following year for each Year of Assessment
+    (i.e. the YA2018 figures are as at 31 March 2019).'
+Topics:
+  - 'Finance'
+Keywords:
+  - 'Businesses'
+  - 'Companies'
+  - 'Corporate Tax'
+  - 'Taxes'
+Publisher:
+  Name: 'Inland Revenue Authority of Singapore'
+  Admin 1:
+    Name: 'Chua Chanyi'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Chanyi@iras.gov.sg'
+  Admin 2:
+    Name: 'Chua Sin Chet'
+    Department: 'Compliance Strategy and Insights Division \ Strategy & Data Management
+      Branch'
+    Email: 'CHUA_Sin_Chet@iras.gov.sg'
+Sources:
+  - 'Inland Revenue Authority of Singapore'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2004-01-01 to 2019-12-31'
+Last Updated: '2020-09-26T11:11:05.138561'
+Resources:
+  -
+    Identifier: '8b6f2ae6-5091-460f-81a9-e3ccae402f50'
+    Title: 'Taxable Companies by Chargeable Income Group (YA2008 - YA2019)'
+    Url: 'https://storage.data.gov.sg/taxable-companies-by-income-group-annual/resources/taxable-companies-by-chargeable-income-group-ya2008-ya2019-2020-09-26T11-11-04Z.csv'
+    Format: 'CSV'
+    Coverage: '2008-01-01 to 2019-12-31'
+    Last Updated: '2020-09-26T11:11:04.557712'
+    Schema:
+      -
+        Name: 'year_of_assessment'
+        Title: 'Year of Assessment'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'chargeable_income_group'
+        Title: 'Chargeable Income Group'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'S$'
+      -
+        Name: 'no_of_companies'
+        Title: 'No. of Companies'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'
+      -
+        Name: 'chargeable_income'
+        Title: 'Chargeable Income'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'net_tax_assessed'
+        Title: 'Net Tax Assessed'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+  -
+    Identifier: 'cc484458-9479-4113-ae64-c767c4601c98'
+    Title: 'Taxable Companies by Assessed Income Group (YA2004 - YA2007)'
+    Url: 'https://storage.data.gov.sg/taxable-companies-by-income-group-annual/resources/taxable-companies-by-assessed-income-group-ya2004-ya2007-2020-09-26T10-56-07Z.csv'
+    Format: 'CSV'
+    Coverage: '2004-01-01 to 2007-12-31'
+    Last Updated: '2020-09-26T10:56:07.916823'
+    Schema:
+      -
+        Name: 'year_of_assessment'
+        Title: 'Year of Assessment'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'assessed_income_group'
+        Title: 'Assessed Income Group'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: 'S$'
+      -
+        Name: 'no_of_companies'
+        Title: 'No. of Companies'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'Count'
+      -
+        Name: 'assessable_income'
+        Title: 'Assessable Income'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'
+      -
+        Name: 'net_tax_assessed'
+        Title: 'Net Tax Assessed'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$ Thousand'

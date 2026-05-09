@@ -1,0 +1,120 @@
+# Metadata for Baby Bonus Approved Institution (AI) Information
+---
+Identifier: 'da599c47-c94d-4574-bc09-fe89a30be5dd'
+Name: 'baby-bonus-approved-institution-ai-information'
+Title: 'Baby Bonus Approved Institution (AI) Information'
+Description: 'List of Approved Institutions'
+Topics:
+  - 'Finance'
+  - 'Society'
+Keywords:
+  - 'AI'
+  - 'Approved Institutions'
+  - 'Baby Bonus Approved Institutions'
+  - 'CDA Approved Institution'
+  - 'CDA Bank'
+  - 'Child Development Account'
+Publisher:
+  Name: 'Ministry of Social and Family Development'
+  Admin 1:
+    Name: 'Muhammad Taufik Bin Md Saada'
+    Department: 'Baby Bonus & Leave Branch'
+    Email: 'muhammad_taufik_saada@msf.gov.sg'
+Sources:
+  - 'Ministry of Social and Family Development'
+Source Url: 'https://babybonus.msf.gov.sg/mol/bbo_ai.csv'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Daily'
+Coverage: '2018-05-07 to 2021-01-01'
+Last Updated: '2020-09-29T13:51:44.704288'
+Resources:
+  -
+    Identifier: '32c21434-862a-486d-b9cd-e3064f2afc74'
+    Title: 'Baby Bonus - Approved Institutions (AI)'
+    Url: 'https://storage.data.gov.sg/baby-bonus-approved-institution-ai-information/resources/baby-bonus-approved-institutions-ai-2020-06-02T09-24-05Z.csv'
+    Format: 'CSV'
+    Coverage: '2018-05-07 to 2021-01-01'
+    Description: 'Listing of approved institutions for Baby Bonus.'
+    Last Updated: '2020-06-02T09:24:05.883778'
+    Schema:
+      -
+        Name: 'seq_no'
+        Title: 'Sequence no'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'instn_code'
+        Title: 'Institution code'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'instn_name'
+        Title: 'Institution name'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'instn_srvc_type_cde'
+        Title: 'Institution service type code'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'instn_srvc_type'
+        Title: 'Institution service type'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'instn_blk_hse_no'
+        Title: 'Institution block house number'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'instn_street_name'
+        Title: 'Institution street name'
+        Type: 'text'
+        Sub Type: 'general'
+      -
+        Name: 'instn_flr_no'
+        Title: 'Institution floor number'
+        Type: 'text'
+        Sub Type: 'general'
+        Description:
+          - '"na" : Data not available or not applicable'
+          - '"-" : Data is negligible or not significant'
+      -
+        Name: 'instn_unit_no'
+        Title: 'Institution unit number'
+        Type: 'text'
+        Sub Type: 'general'
+        Description:
+          - '"na" : Data not available or not applicable'
+          - '"-" : Data is negligible or not significant'
+      -
+        Name: 'instn_bldg_name'
+        Title: 'Institution building name'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'instn_pc'
+        Title: 'Institution postal code'
+        Type: 'text'
+        Sub Type: 'postal_code'
+      -
+        Name: 'instn_ofc_no'
+        Title: 'Institution office number'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'instn_email'
+        Title: 'Institution email'
+        Type: 'text'
+        Sub Type: 'email'
+        Description: '"na" : Data not available or not applicable'
+      -
+        Name: 'ap_user_name'
+        Title: 'Applicant'
+        Type: 'text'
+        Sub Type: 'general'
+        Description: '"na" : Data not available or not applicable'

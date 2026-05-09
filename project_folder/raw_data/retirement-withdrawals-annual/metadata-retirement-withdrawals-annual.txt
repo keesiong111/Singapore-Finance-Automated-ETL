@@ -1,0 +1,112 @@
+# Metadata for Retirement withdrawals, Annual
+---
+Identifier: '228f45c5-c5b8-477a-a0a0-738b53cfa16c'
+Name: 'retirement-withdrawals-annual'
+Title: 'Retirement withdrawals, Annual'
+Description:
+  - 'Yearly amounts of monthly payout under Retirement Sum Scheme and CPF LIFE Scheme,
+    and other retirement withdrawals (withdrawals made from age 55, property pledge,
+    RS exemption etc).'
+  - ''
+  - 'Figures are rounded to the nearest hundred thousand dollars.'
+Topics:
+  - 'Finance'
+Keywords:
+  - 'retirement'
+  - 'withdrawal'
+Publisher:
+  Name: 'Central Provident Fund Board'
+  Admin 1:
+    Name: 'Chong Chiew Fong'
+    Department: 'Management Information Department'
+    Email: 'CHONG_Chiew_Fong@cpf.gov.sg'
+Sources:
+  - 'Central Provident Fund Board'
+Source Url: 'https://www.cpf.gov.sg/Assets/common/PublishingImages/CPFStatistics/Sub_Retirement.jpg'
+License: 'https://data.gov.sg/open-data-licence'
+Frequency: 'Annual'
+Coverage: '2006-01-01 to 2020-12-31'
+Last Updated: '2021-06-16T01:41:06.579396'
+Resources:
+  -
+    Identifier: '9cb00ae6-1685-4b17-8804-1dc9728a708e'
+    Title: 'Yearly amount of monthly payout under CPF LIFE Scheme'
+    Url: 'https://storage.data.gov.sg/retirement-withdrawals-annual/resources/yearly-amount-of-monthly-payout-under-cpf-life-scheme-2021-06-14T08-25-29Z.csv'
+    Format: 'CSV'
+    Coverage: '2010-01-01 to 2020-12-31'
+    Description:
+      - 'CPF LIFE was established in Sep 2009 and in 2013, members began to be auto-included
+        into CPF LIFE, if they meet the qualifying criteria at age 55. From Q3 2015,
+        members who turned 55 from Jul 2015 will only be assessed for auto-inclusion
+        six months before their payout eligibility age.'
+      - ''
+      - 'Figures are rounded to the nearest hundred thousand dollars.'
+    Last Updated: '2021-06-14T08:25:29.547136'
+    Schema:
+      -
+        Name: 'yr'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'mthly_payout_amt'
+        Title: 'Payout amount'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$'
+        Description: 'Figures are rounded to the nearest hundred thousand dollars.'
+  -
+    Identifier: '621d625c-1683-436f-8d13-1fdb3147dd5a'
+    Title: 'Yearly amount of monthly payout under Retirement Sum Scheme'
+    Url: 'https://storage.data.gov.sg/retirement-withdrawals-annual/resources/yearly-amount-of-monthly-payout-under-retirement-sum-scheme-2021-06-14T08-28-11Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2020-12-31'
+    Description: 'Figures are rounded to the nearest hundred thousand dollars.'
+    Last Updated: '2021-06-14T08:28:11.201476'
+    Schema:
+      -
+        Name: 'yr'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'mthly_payout_amt'
+        Title: 'Payout amount'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$'
+        Description: 'Figures are rounded to the nearest hundred thousand dollars.'
+  -
+    Identifier: 'ea8c4887-4522-4081-8b82-55cda72d4292'
+    Title: 'Yearly net amount of other retirement withdrawals'
+    Url: 'https://storage.data.gov.sg/retirement-withdrawals-annual/resources/yearly-net-amount-of-other-retirement-withdrawals-2021-06-14T08-32-05Z.csv'
+    Format: 'CSV'
+    Coverage: '2006-01-01 to 2020-12-31'
+    Description:
+      - 'Excludes payouts under CPF LIFE and Retirement Sum Schemes.'
+      - ''
+      - 'Include withdrawals made from age 55, property pledge, RS exemption etc.'
+      - ''
+      - 'Figures are rounded to the nearest hundred thousand dollars.'
+    Last Updated: '2021-06-14T08:32:05.902566'
+    Schema:
+      -
+        Name: 'yr'
+        Title: 'Year'
+        Type: 'datetime'
+        Sub Type: 'year'
+        Format: 'YYYY'
+      -
+        Name: 'net_wdl_amt'
+        Title: 'Net amount withdrawn'
+        Type: 'numeric'
+        Sub Type: 'general'
+        Unit Of Measure: 'S$'
+        Description:
+          - 'Excludes payouts under CPF LIFE and Retirement Sum Schemes.'
+          - ''
+          - 'Include withdrawals made from age 55, property pledge, RS exemption etc.'
+          - ''
+          - 'Figures are rounded to the nearest hundred thousand dollars.'
